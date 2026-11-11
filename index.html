@@ -43,7 +43,7 @@ section h2 .tn{display:inline-block;min-width:30px;height:30px;line-height:30px;
 h3{font:600 13px/1 system-ui,sans-serif;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:26px 0 10px}
 p.intro{font-style:italic;margin:18px 0 10px;color:var(--ink)}
 article.task{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 18px 12px;margin:12px 0;scroll-margin-top:70px}
-.cond{overflow-x:auto}
+.cond{overflow-x:auto;overflow-y:hidden;padding:2px 0}
 .cond p:first-child{display:inline}
 .cond > p{margin:6px 0}
 a.num{font:700 15px/1 system-ui,sans-serif;color:var(--accent);text-decoration:none;margin-right:10px;white-space:nowrap}
@@ -57,7 +57,7 @@ details summary::before{content:"▸";display:inline-block;margin-right:6px;tran
 details[open] summary::before{transform:rotate(90deg)}
 details.ans summary{color:var(--accent);background:var(--accent-soft)}
 details.sol summary{color:var(--sol);background:var(--sol-soft)}
-.box{margin:8px 0 4px;padding:10px 14px;border-left:3px solid var(--accent);background:color-mix(in srgb,var(--accent-soft) 45%,transparent);border-radius:0 8px 8px 0;overflow-x:auto}
+.box{margin:8px 0 4px;padding:10px 14px;border-left:3px solid var(--accent);background:color-mix(in srgb,var(--accent-soft) 45%,transparent);border-radius:0 8px 8px 0;overflow-x:auto;overflow-y:hidden}
 details.sol .box{border-left-color:var(--sol);background:color-mix(in srgb,var(--sol-soft) 45%,transparent)}
 .box p{margin:6px 0}
 .note{margin:8px 0;padding:8px 12px;background:var(--note-soft);color:var(--note);border-radius:8px;font-size:15px}
